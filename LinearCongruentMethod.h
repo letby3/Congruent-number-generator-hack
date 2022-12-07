@@ -77,7 +77,8 @@ int start_hack(int show_answ, int autoR) {
 
 	u = abs(T[3] * T[1] - T[2] * T[2]);
 	if (u == 0) {
-		return 0;
+		cout << "HAVE MORE " << max_m - max(X1[1], max(X1[2], X1[3])) << " ANSWER-s one of them:" << endl;
+		u = max(X1[1], max(X1[2], X1[3])) + 1;
 	}
 	//cout << "u = " << u << endl;
 	for (long long i = max(X1[1], max(X1[2], X1[3])) + 1; i <= max_m; i++)

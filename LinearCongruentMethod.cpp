@@ -12,7 +12,7 @@ using namespace std;
 
 int main(){
 	for (int i = 0; i < 10000; i++) {
-		int answ = start_hack(0, 1);
+		int answ = start_hack(1, 0);
 		cout << answ << endl;
 		if (answ == 0)
 			system("PAUSE");
